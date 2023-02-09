@@ -10,6 +10,6 @@ public class PortfolioController {
 
     @GetMapping("/")
     public String getPortfolioPage(){
-        return "myPortfolio";
+        return "Portfolio";
     }
 }
