@@ -1,4 +1,4 @@
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Classic - Minimal CV/Personal Portfolio</title>
@@ -28,11 +28,11 @@
 
 <nav class="menu">
     <ul class="menu-ul">
-        <li class=""><a href="#about"> About </a></li>
+        <li class="current"><a href="#about"> About </a></li>
         <li class=""><a href="#skill-education"> Education </a></li>
         <li class=""><a href="#experience-testimonials"> Experience </a></li>
         <li class=""><a href="#portfolio"> Portfolio </a></li>
-        <li class="current"><a href="#contact"> Contact </a></li>
+        <li class=""><a href="#contact"> Contact </a></li>
     </ul><!-- /. menu list -->
     <div class="menu-holder">
         <div class="menu-bar"></div>
@@ -100,7 +100,7 @@
                     <!-- /.right line -->
 
                     <div class="img-holder">
-                        <img th:src="@{/assets/images/MyAva.jpg}" class="img-responsive img-circle" alt="John Doe">
+                        <img th:src="@{/assets/images/myAva.jpg}" class="img-responsive img-circle" alt="John Doe">
                     </div>
                     <div class="sep-mini"></div>
                     <h4> Name: Smuraha Aleksei Aleksandrovich </h4>
@@ -130,11 +130,20 @@
                     </div>
                     <h3 class="section-title"> About Me </h3>
                     <p>
-                        Beast. Meat set greater she'd creeping from were under bearing won't wherein it open. Light.
-                        From midst all fill saying day Very void land their fly.
+                        Developed and supported several projects at the same time.Can multitask.
+                        <!--                        умею работать в режиме многозадачности.-->
+                        <!--                        занимался разработкой и поддержкой одновременно нескольких проектов-->
                         <br>
-                        Heaven green without whose replenish seasons there brought, over own sixth in Beginning.
-                        <br> <br>All behold. Our every fruitful so.
+                        Have experience in communicating with clients and successfully implementing their requirements.
+                        <!--                        имею опыт общения с клиентами и успешную реализацию их требований-->
+                        <br>
+                        Taught Java course students, developed my own curriculum, successfully captivated and brought to
+                        the end of the road 70% of students.
+                        <!--                        Обучал стдентов курса по джаве разработав свою программу обучения, успешно увлек и довел до конца 70% студентов-->
+
+                        <br>
+                        <br> <br><em>Everything ingenious is simple</em>
+                        <!--                        всё гениальное - просто-->
                     </p>
 
                     <!-- hobbies -->
@@ -142,14 +151,14 @@
                         <i class="ion-ios-baseball-outline"></i>
                     </div>
                     <h4> Hobbies </h4>
-                    <p> bicycling | gaming | hiking | photography </p>
+                    <p> bicycling | gaming | skiing | traveling </p>
 
                     <!-- twitter feed -->
-                    <div class="icon-holder i-size-small">
-                        <i class="ion-social-twitter-outline"></i>
-                    </div>
-                    <h4> Latest Tweet </h4>
-                    <div class="tweet"><span>Loading...</span></div>
+                    <!--                    <div class="icon-holder i-size-small">-->
+                    <!--                        <i class="ion-social-twitter-outline"></i>-->
+                    <!--                    </div>-->
+                    <!--                    <h4> Latest Tweet </h4>-->
+                    <!--                    <div class="tweet"><span>Loading...</span></div>-->
 
                 </div><!-- /.section-holder -->
             </div><!-- /.col -->
@@ -220,160 +229,92 @@
 
                     <div class="skill-holder owl-carousel owl-theme" style="opacity: 1; display: block;">
 
+                        <div class="skill-area">
+                            <h4 class="skill-title"> Hard skills </h4><!-- /.skill type name -->
 
-                                    <div class="skill-area">
-                                        <h4 class="skill-title"> Professional </h4><!-- /.skill type name -->
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span><strong>Programming language:</strong> Java</span>
+                                </div>
+                            </div> <!-- /.skill bar -->
 
-                                        <div class="skillbar clearfix" data-percent="90%">
-                                            <div class="skillbar-title">
-                                                <span>CSS</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar to-animate" style="width: 90%;">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                90%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
+                            <div class="skillbar clearfix">
+                                <div class="skillbar-title">
+                                    <span><strong>Frameworks:</strong> Spring, Hibernate</span>
+                                </div>
+                            </div> <!-- /.skill bar -->
 
-                                        <div class="skillbar clearfix" data-percent="95%">
-                                            <div class="skillbar-title">
-                                                <span>HTML</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar to-animate" style="width: 95%;">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                95%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-
-                                        <div class="skillbar clearfix" data-percent="90%">
-                                            <div class="skillbar-title">
-                                                <span>CSS</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar to-animate" style="width: 90%;">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                90%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-
-                                        <div class="skillbar clearfix" data-percent="80%">
-                                            <div class="skillbar-title">
-                                                <span>jQuery</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar to-animate" style="width: 80%;">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                80%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-                                    </div>
-
-
-                                    <div class="skill-area">
-                                        <h4 class="skill-title"> Intermediate </h4><!-- /.skill type name -->
-                                        <div class="skillbar clearfix" data-percent="80%">
-                                            <div class="skillbar-title">
-                                                <span>Portrait Sketch</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                80%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-
-                                        <div class="skillbar clearfix" data-percent="75%">
-                                            <div class="skillbar-title">
-                                                <span>Photography</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                75%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-
-                                        <div class="skillbar clearfix" data-percent="90%">
-                                            <div class="skillbar-title">
-                                                <span>iOS</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                90%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-
-                                        <div class="skillbar clearfix" data-percent="88%">
-                                            <div class="skillbar-title">
-                                                <span>Android</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                88%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-                                    </div>
-
-
-                                    <div class="skill-area">
-                                        <h4 class="skill-title"> Beginner </h4><!-- /.skill type name -->
-                                        <div class="skillbar clearfix" data-percent="20%">
-                                            <div class="skillbar-title">
-                                                <span>Laziness</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                20%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-
-                                        <div class="skillbar clearfix" data-percent="40%">
-                                            <div class="skillbar-title">
-                                                <span>Swimming</span>
-                                            </div>
-                                            <div class="skillbar-bg">
-                                            </div>
-                                            <div class="skillbar-bar">
-                                            </div>
-                                            <div class="skill-bar-percent">
-                                                40%
-                                            </div>
-                                        </div> <!-- /.skill bar -->
-                                    </div>
-
-
-                        <!-- /.skill area -->
-
-                        <!-- /.skill area -->
-
-                        <div class="owl-controls clickable">
-                            <div class="owl-buttons">
-                                <div class="owl-prev"><span class="ion-ios-arrow-left"></span></div>
-                                <div class="owl-next"><span class="ion-ios-arrow-right"></span></div>
-                            </div>
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span><strong>Template engines:</strong> Thymeleaf, JSP</span>
+                                </div>
+                            </div> <!-- /.skill bar -->
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span><strong>Frontend:</strong> HTML, CSS, JS</span>
+                                </div>
+                            </div> <!-- /.skill bar -->
                         </div>
+
+                        <div class="skill-area">
+                            <h4 class="skill-title"> ...Hard skills</h4><!-- /.skill type name -->
+
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span><strong>DB:</strong>MySQL,Oracle,MSQLServer,Postgres</span>
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix">
+                                <div class="skillbar-title">
+                                    <span><strong>Automation and assembly:</strong> Maven</span>
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span><strong>Containerizer:</strong> Docker</span>
+                                </div>
+                            </div> <!-- /.skill bar -->
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span><strong>VCS:</strong> GIT </span>
+                                </div>
+                            </div> <!-- /.skill bar -->
+                        </div>
+
+
+                        <div class="skill-area">
+                            <h4 class="skill-title"> Soft skills </h4><!-- /.skill type name -->
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span>Fast learner</span>
+<!--                                    Быстрая обучаемость-->
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span>Creative thinking</span>
+<!--                                    Креативное мышление-->
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span>Sociability</span>
+<!--                                    Коммуникабельность-->
+                                </div>
+                            </div> <!-- /.skill bar -->
+
+                            <div class="skillbar clearfix" >
+                                <div class="skillbar-title">
+                                    <span>Punctuality</span>
+<!--                                    Пунктуальность-->
+                                </div>
+                            </div> <!-- /.skill bar -->
+                        </div>
+                        <!-- /.skill area -->
                     </div>
                 </div> <!-- /.section-holder -->
             </div> <!-- /.col-sm-4 -->
@@ -384,60 +325,79 @@
                     <div class="icon-holder i-size-big">
                         <i class="ion-ios-lightbulb-outline"></i>
                     </div>
-                    <h3> Education </h3>
+                    <h3> Education and Courses</h3>
                     <div class="time-line">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="time-item">
                                     <div class="time-year">
-                                        2013-Present
+                                        2017-2021
                                     </div>
                                     <div class="icon-holder-time wow fadeIn"
                                          style="visibility: visible; animation-name: fadeIn;">
                                         <i class="ion-ios-circle-outline"></i>
                                     </div>
                                     <h4 class="time-title">
-                                        ILD University of Technology
+                                        Belarusian State University of Informatics and Radioelectronics, FITU
                                     </h4>
-                                    <h5 class="time-semitag"> Major in Computer Science </h5>
+                                    <h5 class="time-semitag"> IT engineer </h5>
                                     <p>
-                                        Given two spirit very unto firmament. Fourth and she'd their fruit together.
+                                        Got basic programming skills and learned how to deliver projects on time
+<!--                                        получил базовые навыки программирования и научился сдавать проекты в срок-->
                                     </p>
                                 </div>
                             </div><!-- /.col-md-12 -->
                             <div class="col-sm-12">
                                 <div class="time-item">
                                     <div class="time-year">
-                                        2011-2013
+                                        2019-2020
+                                    </div>
+                                    <div class="icon-holder-time wow fadeIn"
+                                         style="visibility: visible; animation-name: fadeIn;">
+                                        <i class="ion-ios-circle-outline"></i>
+                                    </div>
+                                    <h4 class="time-title">
+                                        DIGITAL UNICORN
+                                    </h4>
+                                    <h5 class="time-semitag"> Java Web-Developer Course </h5>
+                                    <p>
+                                        During this course, I learned OOP, Java Core, Git, SQL and finally developed my first Web Application project using Spring Framework and Hibernate
+                                    </p>
+                                </div>
+                            </div><!-- /.col-md-12 -->
+                            <div class="col-sm-12">
+                                <div class="time-item">
+                                    <div class="time-year">
+                                        oct-2019-dec-2019
                                     </div>
                                     <div class="icon-holder-time wow fadeIn" data-wow-delay=".25s"
                                          style="visibility: visible; animation-delay: 0.25s; animation-name: fadeIn;">
                                         <i class="ion-ios-circle-outline"></i>
                                     </div>
                                     <h4 class="time-title">
-                                        Newton College of Science &amp; Arts
+                                        IBA GROUP
                                     </h4>
-                                    <h5 class="time-semitag"> Standard Applied Science </h5>
+                                    <h5 class="time-semitag"> System Multiplatform Programming </h5>
                                     <p>
-                                        Given two spirit very unto firmament. Fourth and she'd their fruit together.
+                                        Successfully graduated
                                     </p>
                                 </div>
                             </div><!-- /.col-md-12 -->
                             <div class="col-sm-12">
                                 <div class="time-item">
                                     <div class="time-year">
-                                        2009-2011
+                                        2010-2017
                                     </div>
                                     <div class="icon-holder-time wow fadeIn" data-wow-delay=".5s"
                                          style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
                                         <i class="ion-ios-circle-outline"></i>
                                     </div>
                                     <h4 class="time-title">
-                                        Twinkle Higher Secondary School
+                                        Gymnasium №192
                                     </h4>
-                                    <h5 class="time-semitag"> Standard Secondary Science </h5>
+                                    <h5 class="time-semitag"> Secondary Education </h5>
                                     <p>
-                                        Given two spirit very unto firmament. Fourth and she'd their fruit together.
+                                        Graduated with gold medal.
                                     </p>
                                 </div>
                             </div><!-- /.col-md-12 -->
@@ -472,7 +432,7 @@
     <div class="container">
         <div class="row">
             <!-- work experience -->
-            <div class="col-sm-8">
+            <div class="col-sm-12">
                 <div class="section-holder">
                     <div class="icon-holder i-size-big">
                         <i class="ion-ios-briefcase-outline"></i>
@@ -483,18 +443,19 @@
                             <div class="col-sm-12">
                                 <div class="time-item">
                                     <div class="time-year">
-                                        2015-Present
+                                        nov-2020-Present
                                     </div>
                                     <div class="icon-holder-time wow fadeIn"
                                          style="visibility: visible; animation-name: fadeIn;">
                                         <i class="ion-ios-circle-outline"></i>
                                     </div>
                                     <h4 class="time-title">
-                                        BulkStudio
+                                        Belposhta
                                     </h4>
-                                    <h5 class="time-semitag"> Senior Web Designer </h5>
+                                    <h5 class="time-semitag"> Java Web Developer </h5>
                                     <p>
-                                        Given two spirit very unto firmament. Fourth and she'd their fruit together.
+                                        Developed several internal projects from scratch in the field of report generation and process
+                                        automation. Currently, engaged in the support of 7 Java projects including one external <a href="http://estamp.belpost.by/">Project</a>, their refinement and development of new ones
                                     </p>
                                 </div>
                                 <div class="work-item-icon">
@@ -504,18 +465,20 @@
                             <div class="col-sm-12">
                                 <div class="time-item">
                                     <div class="time-year">
-                                        2014-2015
+                                        dec-2021-dec-2022
                                     </div>
                                     <div class="icon-holder-time wow fadeIn" data-wow-delay=".25s"
                                          style="visibility: visible; animation-delay: 0.25s; animation-name: fadeIn;">
                                         <i class="ion-ios-circle-outline"></i>
                                     </div>
                                     <h4 class="time-title">
-                                        Orion Technology
+                                        Freelance
                                     </h4>
-                                    <h5 class="time-semitag"> Junior Web Designer </h5>
+                                    <h5 class="time-semitag"> Java Web Developer </h5>
                                     <p>
-                                        Given two spirit very unto firmament. Fourth and she'd their fruit together.
+                                       Gained experience of communication with client and Effectively implemented their requirements into application.
+                                        Worked with JS, SQL and Spring. Redesigned the database architecture bringing it to 3 normal form. Acquired the basic principles of project deployment on Heroku
+
                                     </p>
                                 </div>
                             </div><!-- /.col-md-12 -->
@@ -523,18 +486,18 @@
                             <div class="col-sm-12">
                                 <div class="time-item">
                                     <div class="time-year">
-                                        2013-2014
+                                        apr-2021-jul-2022
                                     </div>
                                     <div class="icon-holder-time wow fadeIn" data-wow-delay=".5s"
                                          style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
                                         <i class="ion-ios-circle-outline"></i>
                                     </div>
                                     <h4 class="time-title">
-                                        Cubic Web Development Agency
+                                        IT OVERONE
                                     </h4>
-                                    <h5 class="time-semitag"> Developer Internship </h5>
+                                    <h5 class="time-semitag"> Lecturer </h5>
                                     <p>
-                                        Given two spirit very unto firmament. Fourth and she'd their fruit together.
+                                        Developed and implemented training program "Become Java Junior Developer for 6 month"
                                     </p>
                                 </div>
                             </div><!-- /.col-md-12 -->
@@ -545,107 +508,107 @@
             </div><!-- /.col-md-8 -->
 
             <!-- testimonials -->
-            <div class="col-sm-4">
-                <div class="section-holder texture">
+<!--            <div class="col-sm-4">-->
+<!--                <div class="section-holder texture">-->
 
-                    <!-- draw line art -->
-                    <div class="line-art-top">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <!-- /.top line -->
-                    <div class="line-art-bottom">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <!-- /.bottom line -->
-                    <div class="line-art-left">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <!-- /.left line -->
-                    <div class="line-art-right">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <!-- /.right line -->
+<!--                    &lt;!&ndash; draw line art &ndash;&gt;-->
+<!--                    <div class="line-art-top">-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; /.top line &ndash;&gt;-->
+<!--                    <div class="line-art-bottom">-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; /.bottom line &ndash;&gt;-->
+<!--                    <div class="line-art-left">-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; /.left line &ndash;&gt;-->
+<!--                    <div class="line-art-right">-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                        <div></div>-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash; /.right line &ndash;&gt;-->
 
-                    <div class="icon-holder i-size-big">
-                        <i class="ion-ios-chatboxes-outline"></i>
-                    </div>
+<!--                    <div class="icon-holder i-size-big">-->
+<!--                        <i class="ion-ios-chatboxes-outline"></i>-->
+<!--                    </div>-->
 
-                    <h3> Testimonials </h3>
-                    <div class="testi-holder owl-carousel owl-theme" style="opacity: 1; display: block;">
+<!--                    <h3> Testimonials </h3>-->
+<!--                    <div class="testi-holder owl-carousel owl-theme" style="opacity: 1; display: block;">-->
 
-                        <div class="owl-wrapper-outer">
-                            <div class="owl-wrapper"
-                                 style="width: 948px; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(0px, 0px, 0px);">
-                                <div class="owl-item" style="width: 158px;">
-                                    <div class="testi-item">
-                                        <img src="assets/images/testimonial/testi1.jpg" class="img-circle"
-                                             alt="Anthony Doe">
-                                        <p> Pefect, this is exactly what I needed for me. Really great work. </p>
-                                        <div class="testi-bottom">
-                                            <div class="i-size-small testi-icon">
-                                                <i class="ion-ios-chatbubble-outline"></i>
-                                            </div>
-                                            <h5> Anthony Doe </h5>
-                                            <p> CEO, XB Inc </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 158px;">
-                                    <div class="testi-item">
-                                        <img src="assets/images/testimonial/testi2.jpg" class="img-circle"
-                                             alt="Jenna Doe">
-                                        <p> Very much satisfied by the work. Highly recommended! </p>
-                                        <div class="testi-bottom">
-                                            <div class="i-size-small testi-icon">
-                                                <i class="ion-ios-chatbubble-outline"></i>
-                                            </div>
-                                            <h5> Jenna Doe </h5>
-                                            <p> Owner, Fashion Store </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item" style="width: 158px;">
-                                    <div class="testi-item">
-                                        <img src="assets/images/testimonial/testi3.jpg" class="img-circle"
-                                             alt="Michael Hussey">
-                                        <p> Good work done by the designer. Really clean and organized approach. </p>
-                                        <div class="testi-bottom">
-                                            <div class="i-size-small testi-icon">
-                                                <i class="ion-ios-chatbubble-outline"></i>
-                                            </div>
-                                            <h5> Michael Hussey </h5>
-                                            <p> Manager, Basic Consultants </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- /.testi-item -->
+<!--                        <div class="owl-wrapper-outer">-->
+<!--                            <div class="owl-wrapper"-->
+<!--                                 style="width: 948px; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(0px, 0px, 0px);">-->
+<!--                                <div class="owl-item" style="width: 158px;">-->
+<!--                                    <div class="testi-item">-->
+<!--                                        <img src="assets/images/testimonial/testi1.jpg" class="img-circle"-->
+<!--                                             alt="Anthony Doe">-->
+<!--                                        <p> Pefect, this is exactly what I needed for me. Really great work. </p>-->
+<!--                                        <div class="testi-bottom">-->
+<!--                                            <div class="i-size-small testi-icon">-->
+<!--                                                <i class="ion-ios-chatbubble-outline"></i>-->
+<!--                                            </div>-->
+<!--                                            <h5> Anthony Doe </h5>-->
+<!--                                            <p> CEO, XB Inc </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="owl-item" style="width: 158px;">-->
+<!--                                    <div class="testi-item">-->
+<!--                                        <img src="assets/images/testimonial/testi2.jpg" class="img-circle"-->
+<!--                                             alt="Jenna Doe">-->
+<!--                                        <p> Very much satisfied by the work. Highly recommended! </p>-->
+<!--                                        <div class="testi-bottom">-->
+<!--                                            <div class="i-size-small testi-icon">-->
+<!--                                                <i class="ion-ios-chatbubble-outline"></i>-->
+<!--                                            </div>-->
+<!--                                            <h5> Jenna Doe </h5>-->
+<!--                                            <p> Owner, Fashion Store </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="owl-item" style="width: 158px;">-->
+<!--                                    <div class="testi-item">-->
+<!--                                        <img src="assets/images/testimonial/testi3.jpg" class="img-circle"-->
+<!--                                             alt="Michael Hussey">-->
+<!--                                        <p> Good work done by the designer. Really clean and organized approach. </p>-->
+<!--                                        <div class="testi-bottom">-->
+<!--                                            <div class="i-size-small testi-icon">-->
+<!--                                                <i class="ion-ios-chatbubble-outline"></i>-->
+<!--                                            </div>-->
+<!--                                            <h5> Michael Hussey </h5>-->
+<!--                                            <p> Manager, Basic Consultants </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>&lt;!&ndash; /.testi-item &ndash;&gt;-->
 
-                        <!-- /.testi-item -->
+<!--                        &lt;!&ndash; /.testi-item &ndash;&gt;-->
 
-                        <!-- /.testi-item -->
+<!--                        &lt;!&ndash; /.testi-item &ndash;&gt;-->
 
-                        <div class="owl-controls clickable">
-                            <div class="owl-buttons">
-                                <div class="owl-prev"><span class="ion-ios-arrow-left"></span></div>
-                                <div class="owl-next"><span class="ion-ios-arrow-right"></span></div>
-                            </div>
-                        </div>
-                    </div><!-- /.testi-holder -->
-                </div><!-- /.section-holder -->
-            </div><!-- /.col-md-4 -->
+<!--                        <div class="owl-controls clickable">-->
+<!--                            <div class="owl-buttons">-->
+<!--                                <div class="owl-prev"><span class="ion-ios-arrow-left"></span></div>-->
+<!--                                <div class="owl-next"><span class="ion-ios-arrow-right"></span></div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>&lt;!&ndash; /.testi-holder &ndash;&gt;-->
+<!--                </div>&lt;!&ndash; /.section-holder &ndash;&gt;-->
+<!--            </div>&lt;!&ndash; /.col-md-4 &ndash;&gt;-->
         </div><!-- /.row -->
     </div><!-- container -->
 </section><!-- work experience & testimonials -->
@@ -760,7 +723,7 @@
                     <div class="icon-holder i-size-big">
                         <i class="ion-ios-paper-outline"></i>
                     </div>
-                    <h3> My Works </h3>
+                    <h3> My Hobby Works </h3>
                 </div><!-- /.col-sm-12 -->
             </div><!-- /.row -->
 
@@ -1001,122 +964,6 @@
     </div><!-- /.container -->
 </section><!-- /.portfoilo -->
 
-<section id="fun-fact">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-holder">
-                    <div class="text-center">
-                        <div class="icon-holder-center i-size-big">
-                            <i class="ion-ios-barcode-outline"></i>
-                        </div>
-                    </div>
-                    <h3 class="text-center"> Fun Facts </h3>
-                    <ul class="counter">
-                        <li>
-                            <div class="counter-icon i-size-med">
-                                <i class="ion-ios-analytics"></i>
-                            </div>
-                            <h1 class="counter-data">128</h1>
-                            <h4>Projects Done</h4>
-                        </li><!-- /.counter list -->
-                        <li>
-                            <div class="counter-icon i-size-med">
-                                <i class="ion-ios-color-filter"></i>
-                            </div>
-                            <h1 class="counter-data">366</h1>
-                            <h4>Happy Clients</h4>
-                        </li><!-- /.counter list -->
-                        <li>
-                            <div class="counter-icon i-size-med">
-                                <i class="ion-ios-clock"></i>
-                            </div>
-                            <h1 class="counter-data">6970</h1>
-                            <h4>Hours worked</h4>
-                        </li><!-- /.counter list -->
-                        <li>
-                            <div class="counter-icon i-size-med">
-                                <i class="ion-trophy"></i>
-                            </div>
-                            <h1 class="counter-data">26</h1>
-                            <h4>Awards won</h4>
-                        </li><!-- /.counter list -->
-                    </ul><!-- /.counter -->
-                </div><!-- /.section-holder -->
-            </div><!-- /.col-sm-12 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</section><!-- /.fun-fact -->
-
-<section id="blog">
-    <!-- Big Section Background Title -->
-    <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown"><span
-            style="visibility: hidden;"><span class="word1"
-                                              style="display: inline-block; transform: translate3d(0px, 0px, 0px);"><span
-            class="char1 animated fadeOut" style="display: inline-block; visibility: visible;">b</span><span
-            class="char2 animated fadeOut" style="display: inline-block; visibility: visible;">l</span><span
-            class="char3 animated fadeOut" style="display: inline-block; visibility: visible;">o</span><span
-            class="char4 animated fadeOut" style="display: inline-block; visibility: visible;">g</span><span
-            class="char5 animated fadeOut" style="display: inline-block; visibility: visible;">
-</span></span> <span class="word2" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"></span> <span
-            class="word3" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"></span> <span
-            class="word4" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"></span> <span
-            class="word5" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"></span> <span
-            class="word6" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"></span> <span
-            class="word7" style="display: inline-block; transform: translate3d(0px, 0px, 0px);"></span> </span>
-        <ul class="texts" style="display: none;">
-            <li class="current">blog
-            </li>
-        </ul>
-    </h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-holder">
-                    <div class="icon-holder i-size-big">
-                        <i class="ion-ios-albums-outline"></i>
-                    </div>
-                    <h3> My Writings </h3>
-                    <div class="row">
-                        <div class="article-holder">
-                            <div class="col-sm-4">
-                                <div class="article-it">
-                                    <a href="single.html">
-                                        <img src="assets/images/portfolio/port1.jpg" class="img-responsive" alt="">
-                                    </a>
-                                    <h4>Line Home Delivery</h4>
-                                    <h5> 25 May </h5>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="article-it">
-                                    <a href="assets/images/portfolio/port1.jpg">
-                                        <img src="assets/images/portfolio/port1.jpg" class="img-responsive" alt="">
-                                    </a>
-                                    <h4>Line Home Delivery</h4>
-                                    <h5> 25 May </h5>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="article-it">
-                                    <a href="assets/images/portfolio/port1.jpg">
-                                        <img src="assets/images/portfolio/port1.jpg" class="img-responsive" alt="">
-                                    </a>
-                                    <h4>Line Home Delivery</h4>
-                                    <h5> 25 May </h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-2">
-                            <button class="btn btn-cl">VIEW MORE</button>
-                        </div>
-                    </div>
-                </div><!-- /.section-holder -->
-            </div><!-- /.col-sm-12 -->
-        </div><!-- /.row -->
-    </div><!-- /.container -->
-</section><!-- /.blog -->
-
 <section id="contact">
     <!-- Big Section Background Title -->
     <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown"><span
@@ -1276,7 +1123,7 @@
     $(window).load(function () {
         $("#loader").delay(2000).fadeOut("slow");
     });
-    $(document).ready(function(){
+    $(document).ready(function () {
         $(".owl-carousel").owlCarousel();
     });
 </script>

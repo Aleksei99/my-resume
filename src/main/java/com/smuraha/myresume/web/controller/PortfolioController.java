@@ -12,4 +12,8 @@ public class PortfolioController {
     public String getPortfolioPage(){
         return "Portfolio";
     }
+    @GetMapping("/test")
+    public String getTestPage(){
+        return "test";
+    }
 }
