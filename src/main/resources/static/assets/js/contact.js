@@ -21,11 +21,20 @@ function submitForm(){
     var subject = $("#inputSubject").val();
     var message = $("#inputMessage").val();
 
+    var messageObject={
+        name:name,
+        phone:phone,
+        email:email,
+        subject:subject,
+        message:message
+    }
+
     //process remote data
     $.ajax({
         type: "POST",
-        url: "assets/contact/contact.php",
-        data: "name=" + name + "&email=" + email+ "&phone=" + phone +"&subject=" + subject + "&message=" + message,
+        url: "mail",
+        contentType: 'application/json',
+        data: JSON.stringify(messageObject),
         success : function(data){
             if (data == "success"){
                 submitMSG('Message has been sent');

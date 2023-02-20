@@ -1,9 +1,13 @@
 package com.smuraha.myresume.web.controller;
 
 import com.smuraha.myresume.service.SmtpClient;
+import com.smuraha.myresume.service.dto.MessageToEmailDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequiredArgsConstructor
@@ -15,16 +19,11 @@ public class PortfolioController {
     public String getPortfolioPage(){
         return "Portfolio";
     }
-    @GetMapping("/mail")
-    public void sendMail() throws Exception {
-        smtpClient.sendMail("smurahaleha@gmail.com","A new message", """
-                Dear reader,
-                
-                Hello world!.
-                
-                Best regards,
-                myself
-                """);
+
+    @PostMapping("/mail")
+    @ResponseBody
+    public String sendMail(@RequestBody MessageToEmailDto message) throws Exception {
+        return smtpClient.sendMail(message);
     }
     @GetMapping("/test")
     public String getTestPage(){
